@@ -16,10 +16,9 @@ textarea{
 
 .center{
   text-align:center;
-}
-
-.center h1{
+  h1{
   margin-bottom:10px;
+  }
 }
 
 /* typography */
@@ -59,10 +58,36 @@ p{
   text-transform: uppercase;
   padding-top:9px;
   font-weight:bold;
+  &:hover{
+    color: #fff;
+    text-decoration: none;
+  }
 }
 
-#logo:hover{
-  color: #fff;
-  text-decoration: none;
+/* footer */
+
+footer{
+  margin-top:45px;
+  padding-top:5px;
+  border-top:1px solid #eaeaea;
+  color: #777;
+  a{
+    color: #555;
+  }
+footer a:hover{
+  color: #222;
 }
 
+footer small{
+  float: left;
+}
+
+footer ul{
+  float: right;
+  list-style: none;
+}
+
+footer ul li{
+  float: left;
+  margin-left: 15px;
+}
