@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
-  protect_from_forgery with: :exception
+  get 'static_pages/home'
 
-  def hello
-    render html: "hello, world!"
-  end
+  get 'static_pages/help'
 
+  root 'application#hello'
 end
